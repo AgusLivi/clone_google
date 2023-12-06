@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
 import { useStateContext } from '../contexts/StateContextProvider';
-import { Loading } from './Loading';
+import { Loading } from './Loading/Loading';
 
 export const Results = () => {
   const { results, loading, getResults, searchTerm } = useStateContext();
