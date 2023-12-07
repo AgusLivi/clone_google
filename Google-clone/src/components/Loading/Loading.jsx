@@ -6,3 +6,4 @@ export const Loading = () => (
     <Loader type="Puff" color="#00BFFF" height={550} width={80} />
   </div>
 );
+

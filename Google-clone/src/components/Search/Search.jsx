@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useDebounce } from 'use-debounce';
 
-import { useStateContext } from '../contexts/StateContextProvider';
-import { Links } from './Links';
+import { useStateContext } from '../../contexts/StateContextProvider';
+import { Links } from '../Links/Links';
 
 export const Search = () => {
   const { setSearchTerm } = useStateContext();
@@ -31,3 +31,4 @@ export const Search = () => {
     </div>
   );
 };
+
